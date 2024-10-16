@@ -10,13 +10,20 @@
  * governing permissions and limitations under the License.
  */
 
-@import url('../blocks/custom/community-banner.css');
-@import url('../blocks/custom/community-neighbour.css');
-@import url('../blocks/custom/community-cards.css');
-@import url('../blocks/custom/community-donations.css');
-@import url('../blocks/custom/community-information.css');
-@import url('../blocks/custom/community-vegetation.css');
-@import url('../blocks/custom/trouble-banner.css');
+@import url('../blocks/custom/community/community-banner.css');
+@import url('../blocks/custom/community/community-neighbour.css');
+@import url('../blocks/custom/community/community-cards.css');
+@import url('../blocks/custom/community/community-donations.css');
+@import url('../blocks/custom/community/community-information.css');
+@import url('../blocks/custom/community/community-vegetation.css');
+@import url('../blocks/custom/commons/trouble-banner.css');
+@import url('../blocks/custom/safety/safety-banner.css');
+@import url('../blocks/custom/safety/safety-cards.css');
+@import url('../blocks/custom/safety/safety-committed.css');
+@import url('../blocks/custom/safety/safety-emergency.css');
+@import url('../blocks/custom/safety/safety-goods.css');
+@import url('../blocks/custom/safety/safety-shipments.css');
+@import url('../blocks/custom/safety/safety-stacey.css');
 
 :root {
   /* colors */

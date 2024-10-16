@@ -1,0 +1,146 @@
+.community-card-title-wrapper {
+    display: flex;             /* Use flexbox for alignment */
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically (optional) */
+    height: 100%;              /* Ensure it takes up the full height if needed */
+}
+
+.community-card-title {
+    text-align: center;        /* Center text within the block */
+}
+
+.community-card-title > div > div h2 {
+    font-family: forza-normal, sans-serif;
+    font-size: 2.5rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 3rem;
+}
+
+
+.community-cards-1 {
+    display: flex;
+    padding-bottom: 15px;
+
+
+}
+
+
+.community-cards-2 {
+    display: flex;
+    padding-bottom: 15px;
+
+}
+.community-cards-3 {
+    display: flex;
+    padding-bottom: 15px;
+
+}
+
+.community-cards-1 > div{
+    border: 1px solid #d0d0ce;;
+    margin: 25px;
+    width: 348px;
+    height: 714px;
+}
+
+
+.community-cards-2 > div{
+    border: 1px solid #d0d0ce;;
+    margin: 25px;
+    width: 348px;
+    height: 714px;
+
+}
+.community-cards-3 > div{
+    border: 1px solid #d0d0ce;;
+    margin: 25px;
+    width: 348px;
+    height: 714px;
+
+}
+
+
+.community-cards-1 > div > div:last-child{
+    padding: 2rem 1rem;
+
+
+}
+
+
+.community-cards-2 > div > div:last-child{
+    padding: 2rem 1rem;
+
+
+}
+
+
+.community-cards-3 > div > div:last-child{
+    padding: 2rem 1rem;
+
+
+}
+
+
+.community-cards-1 > div > div:last-child h4 {
+    font-family: forza-normal, sans-serif;
+    font-size: 1.5rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 2rem;
+
+}
+
+
+.community-cards-1 > div > div:last-child p {
+    font-family: frutiger-normal, serif;
+    letter-spacing: 0;
+    line-height: 1.75rem;
+    max-width: 100%;
+    word-break: break-word;
+}
+
+.community-cards-2 > div > div:last-child h4 {
+    font-family: forza-normal, sans-serif;
+    font-size: 1.5rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 2rem;
+
+}
+
+
+.community-cards-2 > div > div:last-child p {
+    font-family: frutiger-normal, serif;
+    letter-spacing: 0;
+    line-height: 1.75rem;
+    max-width: 100%;
+    word-break: break-word;
+}
+
+
+.community-cards-3 > div > div:last-child h4 {
+    font-family: forza-normal, sans-serif;
+    font-size: 1.5rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 2rem;
+
+}
+
+
+.community-cards-3 > div > div:last-child p {
+    font-family: frutiger-normal, serif;
+    letter-spacing: 0;
+    line-height: 1.75rem;
+    max-width: 100%;
+    word-break: break-word;
+}
