@@ -1,0 +1,64 @@
+.community-vegetation-container{
+    background-color: black;
+    margin: 0% !important;
+    
+}
+.community-vegetation-wrapper{    
+    padding: 0% !important;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically (optional) */
+    height: 100%;              /* Ensure it takes up the full height if needed */
+}
+
+
+
+.community-vegetation {
+    width: 1200px !important;
+    text-align: center;        /* Center text within the block */
+    padding: 64px;
+
+}
+
+.community-vegetation > div:nth-of-type(1) h2{
+    color: white;
+    font-family: forza-normal, sans-serif;
+    font-size: 2.5rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 3rem;
+}
+
+.community-vegetation > div:nth-of-type(2) p{
+    color: white;
+    font-family: frutiger-normal, serif;
+    font-size: 1.125rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.75rem;
+}
+
+
+.community-vegetation > div:nth-of-type(3) > div > p a{
+    color: white;
+    background-color: #C2012F;
+    font-family: frutiger-normal, serif;
+    font-size: 1rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.5rem;
+    border-radius: 0;
+    
+}
+
+
+
+
+
+

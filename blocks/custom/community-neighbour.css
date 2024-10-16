@@ -1,0 +1,46 @@
+
+.neighbourhood-section-wrapper{
+    margin: 0% !important;
+    padding-left: 0% !important;
+    width: 100% !important;               /* Set width to 100% */
+    max-width: none !important;           /* Ensure it doesn't inherit a max-width */
+}
+
+.neighbourhood-section > div{
+    display: flex !important;
+}
+
+
+.neighbourhood-section > div > div:nth-of-type(2) h2 {
+    font-family: forza-normal, sans-serif;
+    font-size: 2.5rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 3rem;
+}
+
+.neighbourhood-section > div > div:nth-of-type(2) p {
+    font-family: frutiger-normal, serif;
+    font-size: 1.125rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.75rem;
+}
+.neighbourhood-section > div > div:nth-of-type(2) {
+    width: 30%;
+    margin-left: 50px;
+}
+
+.neighbourhood-section > div > div:nth-of-type(1) > picture img  {
+
+    width: 100%;
+    height: 400px;
+
+}
+
+.neighbourhood-section > div > div:last-child{
+}

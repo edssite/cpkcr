@@ -1,0 +1,49 @@
+.cpkc-trouble-banner-container{
+    background-color: #FFC845;
+    margin: 0% !important;
+    
+}
+.cpkc-trouble-banner-wrapper{    
+    padding: 0% !important;
+    justify-content: center;   /* Center horizontally */
+    align-items: center;       /* Center vertically (optional) */
+    height: 100%;              /* Ensure it takes up the full height if needed */
+}
+
+
+
+.cpkc-trouble-banner {
+    width: 1200px !important;
+    text-align: center;        /* Center text within the block */
+    padding: 16px;
+
+}
+
+.cpkc-trouble-banner > div:nth-of-type(1) p {
+    font-family: frutiger-normal, serif;
+    font-size: 1.125rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.75rem;
+
+}
+
+
+
+.cpkc-trouble-banner > div:nth-of-type(1) a {
+    color: black;
+    font-family: frutiger-normal, serif;
+    font-size: 1.125rem;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 1.75rem;
+
+
+}
+
+
+
