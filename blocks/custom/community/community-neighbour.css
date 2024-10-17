@@ -9,8 +9,20 @@
 .neighbourhood-section > div{
     display: flex !important;
 }
+.neighbourhood-section > div > div:nth-of-type(2) {
+    position: relative; /* Positioning context for the pseudo-element */
+    padding: 10px; /* Optional padding for content inside */
+    background-color: white; /* Set background color */
+}
 
-
+.neighbourhood-section > div > div:nth-of-type(2)::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Positioning */
+    height: 5px; /* Height of the border */
+    width: 15%;
+    border-top: 10px solid #C2012F; /* Border properties */
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+}
 .neighbourhood-section > div > div:nth-of-type(2) h2 {
     font-family: forza-normal, sans-serif;
     font-size: 2.5rem;

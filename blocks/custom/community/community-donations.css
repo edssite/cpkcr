@@ -19,6 +19,12 @@
 
 }
 
+.community-donations > div:nth-of-type(1) {
+    position: relative; /* Positioning context for the pseudo-element */
+    text-align: center; /* Center the content horizontally */
+}
+
+
 .community-donations > div:nth-of-type(1) h2{
     color: white;
     font-family: forza-normal, sans-serif;
@@ -29,6 +35,18 @@
     font-weight: 700;
     letter-spacing: normal;
     line-height: 3rem;
+    padding: 30px;
+}
+
+.community-donations > div:nth-of-type(1)::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Positioning */
+    top: 0; /* Align with the top of the div */
+    left: 50%; /* Start from the middle */
+    transform: translateX(-50%); /* Center it horizontally */
+    width: 75px; /* Width of the border */
+    height: 10px; /* Height of the border */
+    background-color: white; /* Color of the border */
 }
 
 .community-donations > div:nth-of-type(2) p{

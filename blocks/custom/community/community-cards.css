@@ -6,7 +6,8 @@
 }
 
 .community-card-title {
-    text-align: center;        /* Center text within the block */
+    position: relative; /* Positioning context for the pseudo-element */
+    text-align: center; /* Center the content horizontally */
 }
 
 .community-card-title > div > div h2 {
@@ -17,9 +18,20 @@
     font-weight: 700;
     letter-spacing: normal;
     line-height: 3rem;
+    margin: 0; /* Remove default margin */
+    padding: 15px;
 }
 
-
+.community-card-title::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Positioning */
+    top: 0; /* Align with the top of the div */
+    left: 50%; /* Start from the middle */
+    transform: translateX(-50%); /* Center it horizontally */
+    width: 75px; /* Width of the border */
+    height: 10px; /* Height of the border */
+    background-color: #C2012F; /* Color of the border */
+}
 .community-cards-1 {
     display: flex;
     padding-bottom: 15px;

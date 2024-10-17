@@ -19,16 +19,33 @@
 
 }
 
-.community-information > div:nth-of-type(1) h2{
+.community-information > div:nth-of-type(1) {
+    position: relative; /* Positioning context for the pseudo-element */
+    text-align: center; /* Center the content horizontally */
+}
+
+.community-information > div:nth-of-type(1) h2 {
     color: black;
     font-family: forza-normal, sans-serif;
     font-size: 2.5rem;
     font-stretch: normal;
     font-style: normal;
-    font-weight: 400;
-    font-weight: 700;
+    font-weight: 700; /* Use a single weight */
     letter-spacing: normal;
     line-height: 3rem;
+    margin: 0; /* Remove default margin */
+    padding: 30px;
+}
+
+.community-information > div:nth-of-type(1)::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute; /* Positioning */
+    top: 0; /* Align with the top of the div */
+    left: 50%; /* Start from the middle */
+    transform: translateX(-50%); /* Center it horizontally */
+    width: 75px; /* Width of the border */
+    height: 10px; /* Height of the border */
+    background-color: #C2012F; /* Color of the border */
 }
 
 .community-information > div:nth-of-type(2) p{
