@@ -18,6 +18,7 @@
 
 
 .safety-shipments > div > div:nth-of-type(2) h2 {
+    position: relative;
     color: white;
     font-family: forza-normal, sans-serif;
     font-size: 2.5rem;
@@ -26,6 +27,16 @@
     font-weight: 700;
     letter-spacing: normal;
     line-height: 3rem;
+}
+
+.safety-shipments > div > div:nth-of-type(2) h2::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning */
+    height: 5px; /* Height of the border */
+    width: 15%;
+    border-top: 10px solid white; /* Border properties */
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+    top: -30px; /* Adjust this value to move the border up */
 }
 
 .safety-shipments > div > div:nth-of-type(2) p {

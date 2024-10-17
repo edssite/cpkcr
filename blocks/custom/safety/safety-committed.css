@@ -2,21 +2,21 @@
     margin: 0% !important;
 }
 
-.safety-committed-wrapper{
+.safety-committed-wrapper {
     margin: 0% !important;
     padding-right: 0% !important;
-    width: 100% !important;               /* Set width to 100% */
-    max-width: none !important;           /* Ensure it doesn't inherit a max-width */
+    width: 100% !important; /* Set width to 100% */
+    max-width: none !important; /* Ensure it doesn't inherit a max-width */
     background-color: black;
     height: 700px;
 }
 
-.safety-committed > div{
+.safety-committed > div {
     display: flex !important;
 }
 
-
 .safety-committed > div > div:nth-of-type(1) h2 {
+    position: relative;
     color: white;
     font-family: forza-normal, sans-serif;
     font-size: 2.5rem;
@@ -25,6 +25,16 @@
     font-weight: 700;
     letter-spacing: normal;
     line-height: 3rem;
+}
+
+.safety-committed > div > div:nth-of-type(1) h2::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning */
+    height: 5px; /* Height of the border */
+    width: 15%;
+    border-top: 10px solid white; /* Border properties */
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+    top: -30px; /* Adjust this value to move the border up */
 }
 
 .safety-committed > div > div:nth-of-type(1) p {
@@ -41,26 +51,16 @@
     width: 50%;
     margin-left: 100px;
     padding: 80px;
-   
 }
 
-
-
-
-
-.safety-committed > div > div:nth-of-type(2) > picture img  {
-
+.safety-committed > div > div:nth-of-type(2) > picture img {
     width: 1290px;
     height: 700px;
-
 }
 
-
-
-
-.safety-committed > div > div:nth-of-type(1) > p:last-child a{
+.safety-committed > div > div:nth-of-type(1) > p:last-child a {
     color: white;
-    background-color: #C2012F;
+    background-color: #c2012f;
     font-family: frutiger-normal, serif;
     font-size: 1rem;
     font-stretch: normal;
@@ -69,6 +69,4 @@
     letter-spacing: normal;
     line-height: 1.5rem;
     border-radius: 0;
-    
 }
-

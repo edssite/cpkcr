@@ -1,24 +1,22 @@
-
 .safety-emergency-container {
-    margin:0% !important;
+    margin: 0% !important;
 }
 
-
-.safety-emergency-wrapper{
+.safety-emergency-wrapper {
     margin: 0% !important;
     padding-left: 0% !important;
-    width: 100% !important;               /* Set width to 100% */
-    max-width: none !important;           /* Ensure it doesn't inherit a max-width */
-    background-color: #C2012F;
+    width: 100% !important; /* Set width to 100% */
+    max-width: none !important; /* Ensure it doesn't inherit a max-width */
+    background-color: #c2012f;
     height: 700px;
 }
 
-.safety-emergency > div{
+.safety-emergency > div {
     display: flex !important;
 }
 
-
 .safety-emergency > div > div:nth-of-type(2) h2 {
+    position: relative;
     color: white;
     font-family: forza-normal, sans-serif;
     font-size: 2.5rem;
@@ -27,6 +25,16 @@
     font-weight: 700;
     letter-spacing: normal;
     line-height: 3rem;
+}
+
+.safety-emergency > div > div:nth-of-type(2) h2::before {
+    content: ""; /* Required for pseudo-elements */
+    position: absolute; /* Positioning */
+    height: 5px; /* Height of the border */
+    width: 15%;
+    border-top: 10px solid white; /* Border properties */
+    pointer-events: none; /* Prevent interaction with the pseudo-element */
+    top: -30px; /* Adjust this value to move the border up */
 }
 
 .safety-emergency > div > div:nth-of-type(2) p {
@@ -43,18 +51,14 @@
     width: 50%;
     margin-left: 100px;
     padding: 80px;
-   
 }
 
-.safety-emergency > div > div:nth-of-type(1) > picture img  {
-
+.safety-emergency > div > div:nth-of-type(1) > picture img {
     width: 1290px;
     height: 700px;
-
 }
 
-
-.safety-emergency > div > div:nth-of-type(2) > p:last-child a{
+.safety-emergency > div > div:nth-of-type(2) > p:last-child a {
     color: white;
     background-color: black;
     font-family: frutiger-normal, serif;
@@ -65,7 +69,4 @@
     letter-spacing: normal;
     line-height: 1.5rem;
     border-radius: 0;
-    
 }
-
-
