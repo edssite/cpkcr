@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--light-color);
+  background-color: white;;
   font-size: var(--body-font-size-xs);
 }
 
@@ -18,3 +18,50 @@ footer .footer p {
     padding: 40px 32px 24px;
   }
 }
+
+.footer-top {
+  display: flex;
+}
+.footer-cta {
+  display: flex;
+}
+
+.footer-cta > div{
+  padding: 50px;
+}
+
+.footer-cta > div > div h3 {
+  font-family: forza-normal, sans-serif;
+    font-size: 1rem;
+    font-stretch: normal;
+    font-style: bold;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 2rem;
+}
+
+.footer-cta > div > div p {
+  font-family: frutiger-normal, serif;
+  font-size: .875rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.25rem;
+}
+
+
+.footer-mobile > div:first-child > div > p:first-child > picture img{
+  height: 90px;
+  width: 95px;
+
+}
+
+
+
+.footer-mobile > div:last-child > div > picture img{
+  height: 50px;
+  width: 250px;
+
+}
+
